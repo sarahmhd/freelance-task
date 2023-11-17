@@ -1,0 +1,27 @@
+.navbar {
+    padding: 1.16rem 0;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.navbar ul {
+    gap: 2.5rem;
+}
+
+.toggler {
+    box-shadow:none !important
+}
+
+.contact_btn {
+    font-size: 0.875rem;
+    color:#fafafa;
+    border-radius: 0.3125rem;
+    background: linear-gradient(225deg, #6675f7 0%, #57007b 100%);
+}
+
+
+@media (max-width: 768px) {
+  .navbar ul {
+    padding:0.5rem 0;
+    gap: 0.3rem;
+}
+}
