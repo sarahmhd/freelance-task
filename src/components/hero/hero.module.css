@@ -1,0 +1,33 @@
+.hero {
+  padding: 4.3rem 0;
+}
+
+.hero_text h1 {
+  font-size: 2.8125rem;
+  line-height: 4.4375rem;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #de4396 0%, #406aff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.hero_text p {
+  font-size: 1.125rem;
+  line-height: 2.25rem;
+  padding: 1.75rem 0 3.6rem;
+}
+
+.get_started {
+  color: #fafafa;
+  padding: 1.1875rem 1.875rem;
+  border-radius: 0.3125rem;
+  background: #3d63ea;
+  line-height: 0.875rem;
+}
