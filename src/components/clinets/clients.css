@@ -1,0 +1,7 @@
+.clients {
+}
+.clients .clients-section-top {
+  padding: 4.5rem 0;
+  background: url("../../assets/imgs/circle.svg") no-repeat 70%
+    calc(100% + 36px);
+}
