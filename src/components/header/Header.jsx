@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 import React from "react";
 import logo from "../../assets/imgs/Logo.svg";
 
-import styles from "./header.module.css";
+import "./header.css";
 
 const Header = () => {
   return (
-    <nav className={`navbar navbar-expand-lg ${styles.navbar}`}>
+    <nav className="navbar navbar-expand-lg">
       <div className="container">
         <Link className="navbar-brand" to="/">
           <img src={logo} alt="logo" />
         </Link>
         <button
-          className={`navbar-toggler ${styles.toggler}`}
+          className="navbar-toggler toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -56,7 +56,7 @@ const Header = () => {
               </HashLink>
             </li>
           </ul>
-          <button className={`btn ${styles.contact_btn}`}>Contact us</button>
+          <button className="btn contact_btn">Contact us</button>
         </div>
       </div>
     </nav>

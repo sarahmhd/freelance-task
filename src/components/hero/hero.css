@@ -1,30 +1,31 @@
 .hero {
   padding: 4.3rem 0;
+  background: url("../../assets/imgs/circle.svg") no-repeat 40% 106%;
 }
 
-.hero_text h1 {
+.hero .hero_text h1 {
   font-size: 2.8125rem;
   line-height: 4.4375rem;
 }
 
-.gradient {
+.hero .gradient {
   background: linear-gradient(180deg, #de4396 0%, #406aff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.bold {
+.hero .bold {
   font-weight: 700;
 }
 
-.hero_text p {
+.hero .hero_text p {
   font-size: 1.125rem;
   line-height: 2.25rem;
   padding: 1.75rem 0 3.6rem;
 }
 
-.get_started {
+.hero .get_started {
   color: #fafafa;
   padding: 1.1875rem 1.875rem;
   border-radius: 0.3125rem;

@@ -1,0 +1,100 @@
+.card {
+  padding: 2.25rem 1rem;
+  gap: 1.7rem;
+  border-radius: 0.4375rem;
+  border: 0;
+  background: #fafafa;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.card .img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: 2px solid #f76680;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .img img {
+  height: 30px;
+  object-fit: contain;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+}
+
+.card p {
+  font-size: 0.875rem;
+  line-height: 1.41769rem;
+  color: #4a5568;
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 2rem;
+}
+
+.slick-center .card {
+  border: 1px solid #f76680;
+  margin-top: 2rem;
+}
+
+.slick-center .card h2 {
+  background: linear-gradient(225deg, #f76680 20%, #57007b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.slick-dots {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  bottom: -2.65rem !important;
+}
+
+.slick-dots li {
+  margin: 0 8px;
+}
+
+.slick-dots button::before {
+  content: "";
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #bbb;
+  outline: none;
+  opacity: 1;
+  color: transparent !important;
+}
+
+.slick-dots li.slick-active button::before {
+  color: transparent !important;
+  background: linear-gradient(225deg, #f76680 20%, #57007b 100%) !important;
+}
+
+.slider_number {
+  bottom: -2.5rem;
+  right: 0;
+}
+
+.slider_number .active_slider_num {
+  color: #a0aec0;
+}
+
+.slider_number .progress {
+  width: 110px;
+  height: 5px;
+}
+
+@media (max-width: 768px) {
+  .slider_number {
+    bottom: calc(100%);
+    right: 0;
+  }
+}
