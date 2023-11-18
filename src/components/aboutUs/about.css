@@ -1,0 +1,62 @@
+.about {
+  min-height: 100vh;
+  padding: 4.3rem 0;
+  background: url("../../assets/imgs/circle.svg") no-repeat 10% -36px;
+}
+
+.about .about-text {
+  padding-right: 6rem;
+}
+
+.about .about-text p {
+  padding: 1.88rem 0 3rem;
+  color: #718096;
+  font-size: 1.125rem;
+  line-height: 2.25rem;
+}
+
+.about .about-text p .gradient {
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about .about-text a {
+  gap: 0.9rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #57007b;
+  width: fit-content;
+}
+
+.about .about-text a svg {
+  transition: 0.5s;
+}
+
+.about .about-text a:hover svg {
+  transform: translateX(10px);
+}
+
+.video-icon {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 4.875rem;
+  height: 4.875rem;
+  background: rgba(255, 255, 255, 0.43);
+  border-radius: 50%;
+}
+
+.video-icon svg {
+  width: 3rem;
+  height: 3rem;
+  color: #57007b;
+}
+
+@media (max-width: 768px) {
+  .about .about-text {
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+}

@@ -18,6 +18,28 @@ img {
   width: 100%;
 }
 
+.section-header {
+  color: #1a202c;
+  font-size: 2.1875rem;
+  line-height: 3.4375rem;
+  font-weight: 400;
+  padding-top: 1.25rem;
+  position: relative;
+}
+
+.section-header::before {
+  content: "";
+  position: absolute;
+  width: 4.3125rem;
+  height: 0.3125rem;
+  top: 0;
+  background: linear-gradient(180deg, #f76680 10%, #57007b 100%);
+}
+
+.section-header .bold {
+  font-weight: 700;
+}
+
 @media (max-width: 480px) {
   :root {
     font-size: 12px;

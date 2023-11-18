@@ -1,11 +1,13 @@
-import React, { useEffect, useState } from "react";
-import Slider from "react-slick";
 import "./carousel.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+import React, { useEffect, useState } from "react";
+
+import Slider from "react-slick";
 import imgCode from "../../assets/imgs/Code_perspective_matte.png";
-import imgTab from "../../assets/imgs/Dashboard_perspective_matte.png";
 import imgMob from "../../assets/imgs/Mobile_app_perspective_matte.png";
+import imgTab from "../../assets/imgs/Dashboard_perspective_matte.png";
 
 const Carousel = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -111,9 +113,9 @@ const Carousel = () => {
       </Slider>
       <div className="slider_number position-absolute d-flex align-items-center gap-2 justify-content-end">
         <div className="active_slider_num">0{activeSlide + 1}</div>
-        <div class="progress">
+        <div className="progress">
           <div
-            class="progress-bar"
+            className="progress-bar"
             role="progressbar"
             style={{ width: `${progressWidth}%` }}
             aria-valuenow="75"
