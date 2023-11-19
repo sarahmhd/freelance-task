@@ -1,6 +1,5 @@
 .feedback-content {
   padding: 6rem 0;
-  margin: 0 -8rem;
   overflow: hidden;
 }
 .feedback-content .section-header::before {
@@ -101,9 +100,18 @@
   left: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .feedback-content {
+    margin: 0 -2rem;
+  }
   .feedback-content .quote {
     width: 90%;
+  }
+  .feedback-content .quote .icon-left {
+    left: 0;
+  }
+  .feedback-content .quote .icon-right {
+    bottom: 1rem;
   }
   .feedback-content .clients {
     flex-wrap: wrap;

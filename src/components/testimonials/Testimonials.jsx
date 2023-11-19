@@ -1,3 +1,5 @@
+import "./testimonials.css";
+
 import React from "react";
 import TestimonialsCarousel from "../testimonialsCarousel/TestimonialsCarousel";
 
