@@ -1,11 +1,21 @@
-import { HashLink } from "react-router-hash-link";
-import { Link } from "react-router-dom";
-import React from "react";
-import logo from "../../assets/imgs/Logo.svg";
-
 import "./header.css";
 
+import React, { useState } from "react";
+
+import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
+import logo from "../../assets/imgs/Logo.svg";
+
 const Header = () => {
+  const [lang, setLang] = useState("");
+  const [direction, setDirection] = useState("");
+
+  const changeDirection = (e) => {
+    setLang(e.target.value);
+    document.documentElement.dir = lang === "ar" ? "ltr" : "rtl";
+    console.log(document.documentElement.dir, e.target.value);
+  };
+
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container">
@@ -57,6 +67,10 @@ const Header = () => {
             </li>
           </ul>
           <button className="btn contact_btn">Contact us</button>
+          <select name="lang" id="lang" onChange={changeDirection}>
+            <option value="en">En</option>
+            <option value="ar">ar</option>
+          </select>
         </div>
       </div>
     </nav>

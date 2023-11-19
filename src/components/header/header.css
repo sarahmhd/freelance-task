@@ -18,6 +18,25 @@
   background: linear-gradient(225deg, #6675f7 0%, #57007b 100%);
 }
 
+.navbar select {
+  margin: 0 1.2rem;
+  border: 0;
+  color: #5b1a96;
+  font-weight: bold;
+}
+
+.navbar select option {
+  padding: 10px;
+  background-color: #fff;
+  color: #57007b;
+  transition: 0.5s;
+}
+
+.navbar select option:checked {
+  background-color: #57007b;
+  color: #fff;
+}
+
 @media (max-width: 768px) {
   .navbar ul {
     padding: 0.5rem 0;
