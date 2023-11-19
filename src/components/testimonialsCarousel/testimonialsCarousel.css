@@ -1,5 +1,6 @@
 .feedback-content {
   padding: 6rem 0;
+  width: 100%;
   overflow: hidden;
 }
 .feedback-content .section-header::before {
@@ -108,18 +109,18 @@
     width: 90%;
   }
   .feedback-content .quote .icon-left {
-    left: 0;
+    left: 1rem;
   }
   .feedback-content .quote .icon-right {
-    bottom: 1rem;
+    right: 1rem;
   }
   .feedback-content .clients {
     flex-wrap: wrap;
   }
   .feedback-content .custom-next {
-    right: 8rem;
+    right: 2rem;
   }
   .feedback-content .custom-prev {
-    left: 8rem;
+    left: 2rem;
   }
 }
