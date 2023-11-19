@@ -22,8 +22,8 @@ const TestimonialsCarousel = () => {
     {
       heading: (
         <h2 className="section-header">
-          Meet the People
-          <br /> <span className="bold">We are Working With </span>
+          Why cutomers love
+          <br /> <span className="bold">working with us </span>
         </h2>
       ),
       paraparph:
@@ -64,8 +64,8 @@ const TestimonialsCarousel = () => {
     {
       heading: (
         <h2 className="section-header">
-          Meet the People
-          <br /> <span className="bold">We are Working With </span>
+          Why cutomers love
+          <br /> <span className="bold">working with us </span>
         </h2>
       ),
       paraparph:
@@ -106,8 +106,8 @@ const TestimonialsCarousel = () => {
     {
       heading: (
         <h2 className="section-header">
-          Meet the People
-          <br /> <span className="bold">We are Working With </span>
+          Why cutomers love
+          <br /> <span className="bold">working with us </span>
         </h2>
       ),
       paraparph:
@@ -148,8 +148,8 @@ const TestimonialsCarousel = () => {
     {
       heading: (
         <h2 className="section-header">
-          Meet the People
-          <br /> <span className="bold">We are Working With </span>
+          Why cutomers love
+          <br /> <span className="bold">working with us </span>
         </h2>
       ),
       paraparph:

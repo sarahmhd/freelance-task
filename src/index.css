@@ -46,6 +46,13 @@ img {
   }
 }
 
+.gradient {
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media (min-width: 481px) and (max-width: 768px) {
   :root {
     font-size: 14px;

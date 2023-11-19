@@ -1,0 +1,72 @@
+.methodology {
+  background: url("../../assets/imgs/circle-organge.png") no-repeat 52% 15rem,
+    url("../../assets/imgs/circle-organge.png") no-repeat 20% 63.6%,
+    url("../../assets/imgs/circle-organge.png") no-repeat 52% calc(100% - 8rem);
+  color: #1a202c;
+  padding: 4.5rem 0;
+}
+
+.methodology .section-header {
+  margin-bottom: 4.5rem;
+}
+
+.methodology .section-header::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.methodology .section-row {
+  margin-bottom: 5rem;
+}
+
+.methodology .section-row > div:first-child {
+  padding-right: 6rem;
+}
+
+.methodology .section-row .row-text h3 {
+  font-size: 1.75rem;
+  line-height: 2.38038rem;
+  margin-bottom: 2rem;
+}
+
+.methodology .section-row .row-text .quote {
+  font-style: italic;
+  padding: 0.94rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.methodology .section-row .row-text .quote::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 0.1875rem;
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+}
+
+.methodology .section-row .row-text .quoter {
+  gap: 0.5rem;
+  color: #1a202c;
+}
+
+.methodology .section-row .row-text .quoter .quoter-info h6 {
+  font-size: 1rem;
+}
+
+.methodology .section-row .row-text .quoter .quoter-info span {
+  font-size: 0.8125rem;
+  color: #718096;
+}
+
+@media (max-width: 768px) {
+  .methodology .section-row > div:first-child {
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+}
+
+.methodology .section-row .row-text p {
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+}
