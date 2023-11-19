@@ -1,0 +1,70 @@
+.footer-top {
+  padding: 2.2rem;
+}
+.footer-col {
+  gap: 1.62rem;
+}
+
+.footer-col .logo {
+  width: 7.6875rem;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #27272e;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 1.62rem;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  display: block;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  opacity: 0.9;
+  padding-left: 7px;
+}
+
+.footer-col.socials {
+  align-self: flex-end;
+}
+
+.footer-col .social-links a {
+  color: #27272e;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 10px 10px 0;
+  line-height: 2.125rem;
+  transition: all 0.5s ease;
+  background: #fafafa;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.footer-col ul li a,
+.footer-col p {
+  color: #718096;
+  font-size: 1rem;
+  line-height: 1.875rem;
+}
+
+.footer-bottom {
+  padding: 2.17rem;
+  background: #fafafa;
+  color: #4a5568;
+  font-size: 0.875rem;
+}
