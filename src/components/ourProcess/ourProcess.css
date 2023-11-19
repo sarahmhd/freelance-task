@@ -1,0 +1,130 @@
+.our-process {
+  padding: 5rem 0;
+}
+
+.our-process .section-header {
+  margin-bottom: 5rem;
+}
+
+.our-process .section-header::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.our-process .processes {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "one three five"
+    "two four six";
+}
+
+.our-process .processes::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50);
+  width: 100%;
+  height: 0.215rem;
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+}
+
+.our-process .processes .process {
+  position: relative;
+  padding: 1.38rem;
+  border-radius: 0.5625rem;
+}
+
+.our-process .processes .process::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0.125rem;
+  height: 1.875rem;
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.our-process .processes .process:nth-of-type(1) {
+  grid-area: one;
+}
+
+.our-process .processes .process:nth-of-type(2) {
+  grid-area: two;
+}
+
+.our-process .processes .process:nth-of-type(3) {
+  grid-area: three;
+}
+
+.our-process .processes .process:nth-of-type(4) {
+  grid-area: four;
+}
+
+.our-process .processes .process:nth-of-type(5) {
+  grid-area: five;
+}
+
+.our-process .processes .process:nth-of-type(6) {
+  grid-area: six;
+}
+
+.our-process .processes .process:nth-of-type(odd) {
+  margin-right: 4.44rem;
+  margin-bottom: 2.8rem;
+}
+
+.our-process .processes .process:nth-of-type(odd)::before {
+  top: calc(100% + 0.95rem);
+}
+
+.our-process .processes .process:nth-of-type(even) {
+  margin-left: 4.44rem;
+  margin-top: 2.8rem;
+}
+
+.our-process .processes .process:nth-of-type(even)::before {
+  bottom: calc(100% + 0.95rem);
+}
+
+.our-process .processes .process h3 {
+  color: #1a202c;
+  font-size: 1.125rem;
+  margin-bottom: 0.94rem;
+}
+
+.our-process .processes .process p {
+  color: #718096;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .our-process .processes::after {
+    content: none;
+  }
+  .our-process .processes .process::before {
+    content: none;
+  }
+  .our-process .processes .process {
+    margin: 0 3rem 3rem 0 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .our-process .processes {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six";
+  }
+  .our-process .processes .process {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+}
