@@ -1,0 +1,29 @@
+.hiring .hiring-content {
+  padding: 5.5rem;
+  background: url("../../assets/imgs/lines.png") no-repeat calc(100% - 9rem) 50%,
+    linear-gradient(225deg, #f1f1f5 0%, #e4ecf7 100%);
+}
+
+.hiring .hiring-content h2 {
+  font-size: 2.1875rem;
+  width: 33.1875rem;
+  line-height: 3.4375rem;
+}
+
+.hiring .hiring-content button {
+  padding: 0.875rem 1.5625rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #fff;
+  color: #fafafa;
+  font-size: 1.125rem;
+  background: linear-gradient(225deg, #ffc656 0%, #f16063 100%);
+}
+
+@media (max-width: 768px) {
+  .hiring .hiring-content {
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+    background-position: 50% 90%;
+  }
+}
