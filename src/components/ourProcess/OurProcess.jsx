@@ -1,6 +1,7 @@
 import "./ourProcess.css";
 
 import React from "react";
+import achievementImg from "../../assets/imgs/Trophy_perspective_matte.png";
 
 const OurProcess = () => {
   return (
@@ -65,6 +66,9 @@ const OurProcess = () => {
                 We divide the implementation process into several checkpoints
                 rather than a single deadline.
               </p>
+            </div>
+            <div className="achievement-img position-absolute">
+              <img src={achievementImg} alt="" />
             </div>
           </div>
         </div>

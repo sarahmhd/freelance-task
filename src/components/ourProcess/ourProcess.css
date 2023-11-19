@@ -100,6 +100,12 @@
   font-size: 0.875rem;
 }
 
+.our-process .processes .achievement-img {
+  top: 50%;
+  transform: translateY(-50%);
+  right: -2.2rem;
+}
+
 @media (max-width: 768px) {
   .our-process .processes::after {
     content: none;
@@ -109,6 +115,9 @@
   }
   .our-process .processes .process {
     margin: 0 3rem 3rem 0 !important;
+  }
+  .our-process .processes .achievement-img {
+    display: none;
   }
 }
 
