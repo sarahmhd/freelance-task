@@ -7,7 +7,7 @@ import imgVid from "../../assets/imgs/about-vid.png";
 
 const AboutUs = () => {
   return (
-    <div className="about">
+    <div className="about" id="about-us">
       <div className="container">
         <div className="about-content row align-items-center">
           <div className="about-text col-lg-6">

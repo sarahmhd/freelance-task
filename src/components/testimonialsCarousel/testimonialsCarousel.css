@@ -1,0 +1,117 @@
+.feedback-content {
+  padding: 6rem 0;
+  margin: 0 -8rem;
+  overflow: hidden;
+}
+.feedback-content .section-header::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feedback-content .quote {
+  width: 60%;
+  margin: auto;
+  padding: 3.6rem 0;
+  color: #718096;
+  font-size: 1.125rem;
+  line-height: 2.25rem;
+}
+.feedback-content .quote .icon svg {
+  color: #57007b;
+  font-size: 2.5rem;
+}
+.feedback-content .quote .icon-left {
+  top: 1rem;
+  left: -2rem;
+}
+.feedback-content .quote .icon-right {
+  right: -2rem;
+  bottom: 1rem;
+}
+
+.feedback-content .clients .img {
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-content .clients .img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #a0aec086;
+}
+.feedback-content .clients {
+  gap: 4rem;
+}
+.feedback-content .clients .img img {
+  width: 9rem;
+  height: 9rem;
+}
+
+.feedback-content .clients h5 {
+  color: #a0aec0;
+  font-size: 0.875rem;
+  margin: 0;
+}
+.feedback-content .clients span {
+  color: #cbd5e0;
+}
+
+.feedback-content .clients [id="2"] .img::before {
+  background: transparent;
+}
+
+.feedback-content .clients [id="2"] h5 {
+  color: #000;
+}
+
+.feedback-content .clients [id="2"] span {
+  color: #000;
+}
+
+.feedback-content .custom-arrow {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border-radius: 50%;
+  border: 1px solid #d16afd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: calc(2rem);
+  color: #57007b;
+  background: transparent;
+  cursor: pointer;
+}
+
+.feedback-content .custom-next {
+  right: 0;
+}
+
+.feedback-content .custom-prev {
+  left: 0;
+}
+
+@media (max-width: 767px) {
+  .feedback-content .quote {
+    width: 90%;
+  }
+  .feedback-content .clients {
+    flex-wrap: wrap;
+  }
+  .feedback-content .custom-next {
+    right: 8rem;
+  }
+  .feedback-content .custom-prev {
+    left: 8rem;
+  }
+}
